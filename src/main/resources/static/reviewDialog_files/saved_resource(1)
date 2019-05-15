@@ -1,0 +1,21 @@
+
+var ftGUID_3432413="4122CB3F044B6D";
+var ftConfID_3432413="0";
+var ftParams_3432413="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=www.expedia.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.expedia.com%2FINNSIDE-by-Melia%25CC%2580-New-York-Nomad.h12627948.Hotel-Information%3Fchkin%3D5%252F14%252F2019%26chkout%3D5%252F15%252F2019%26destination%3DNew%2520York%2520%2528and%2520vicinity%2529%252C%2520New%2520York%252C%2520United%2520States%2520of%2520America%26position%3D1%26pwa_ts%3D1557819366389%26rank%3D1%26regionId%3D178293%26rfrr%3DHSR%26rm1%3Da2%26slots%3DHSR_A%26sort%3Drecommended%26swpToggleOn%3Dtrue%26testVersionOverride%3DButtercup%26top_cur%3DUSD%26top_dp%3D449%26trackingData%3DCmp-8%252FytT8PTNw%252FbTiEaKa5VJsSa6JYWtjEiPhrdL5Zw6BaTpZxgUrnCKtgJOg2LLj8k1lGKgz5uZU85ZLTik7M5051xjK97cNQtAUdB0VI7UUsYiR3L3%252F4XHptk4TejSShr8TG%252BNQ9t7RVAiZLJUcZS%252F4mZVvCvf9sQs0J5ZfRP29jJWVQxbrdihmmKk8D2gHUc4vkChoN5cR3ZzJgJsYzXBuJVrJOxv2nXCLCkwO8A7En3gycVXlDk3y%252FsOZrjYDGIH6QSjqd9lCXsISAtqurAvKkm%252B4YNeowfYo1VPar8J%252BS005XhS9u42OI9w0kn5xRup5mjRKchD3apwxBSfNYXfH05MuAdcF84Bs7hZmwa9Dq2%252BRHqfOs7PP8cPNmFN%252B0WrBTPBMuegeMnLHUNc7l%252Bwsrq3N%252FvCad2R%252BgKM&cachebuster=449664.2320420501";
+var ftKeyword_3432413="";
+var ftCustom_3432413="";
+var ftSection_3432413="";
+var ftSegment_3432413="n7h";
+var ftSegmentList_3432413=[{s:'n7h'}];
+var ftRuleMatch_3432413="0";
+var ftTimestamp_3432413="1557888989";
+var ftImp3432413 = {};
+ftImp3432413.privacy = "x";
+ftImp3432413.guidAge = "30";
+ftImp3432413.impID = "48B78F62-CD8F-CC4F-69D5-04FB88278D18";
+ftImp3432413.duid = "FT:4122CB3F044B6D";
+
+ftImp3432413.ft_tpplid = "";
+ftImp3432413.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/343/3432413/2631868/js/j-3432413-2631868.js" id="ftscript_m3432413" name="ftscript_m3432413"></scr'+'ipt>');

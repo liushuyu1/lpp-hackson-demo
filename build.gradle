@@ -1,0 +1,56 @@
+buildscript {
+	repositories {
+		mavenLocal()
+		maven {
+			credentials {
+				username = artifactory_user
+				password = artifactory_password
+			}
+			url "https://artylab.expedia.biz/public-maven-virtual/"
+		}
+	}
+	dependencies {
+		classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.5.10.RELEASE'
+	}
+}
+plugins {
+	id 'org.springframework.boot' version '2.1.4.RELEASE'
+	id 'java'
+}
+
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'expedia.gmo.ews'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenLocal()
+	maven {
+		credentials {
+			username = artifactory_user
+			password = artifactory_password
+		}
+		url "https://artylab.expedia.biz/public-maven-virtual/"
+	}
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+bootRun {
+	configure {
+		systemProperty "application.environment", "dev"
+		systemProperty "spring.profiles.active", "dev"
+		systemProperty "application.home", "."
+	}
+	jvmArgs=["-Dproject.name=${project.name}",
+			 "-Dapplication.name=${project.name}",
+			 '-Dapplication.environment=dev',
+			 '-Dapplication.home=.',
+			 '-Xdebug',
+			 '-Xrunjdwp:server=y,transport=dt_socket,address=5005,suspend=n']
+}
